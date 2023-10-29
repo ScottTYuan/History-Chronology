@@ -1,0 +1,104 @@
+body {
+  margin: 0;
+  padding: 0;
+  color: #303030;
+  background-color: #E8DDCB;
+  font-size: 1.0em;
+  font-size: 100%;
+  text-align: center;
+}
+
+#placeholder {
+  height: 40px;
+}
+
+.bg {
+  position: fixed;
+  left;
+  0;
+  top: 0;
+  width: 100%;
+  min-width: 350px;
+  height: 40px;
+  line-height: 40px;
+  background-color: #303030;
+}
+
+.title {
+  margin: 0 auto;
+}
+
+.left {
+  float: left;
+  text-align: left;
+  padding-left: 2%;
+  font-size: 1.2em;
+  font-weight: bold;
+  color: #f2f2f2;
+  cursor: pointer;
+}
+
+.box {
+  width: 97%;
+  margin: 10px auto;
+  background-color: #f2f2f2;
+  text-align: left;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+  -moz-box-shadow: 0 0 5px #666;
+  -webkit-box-shadow: 0 0 5px #666;
+  box-shadow: 0 0 5px #666;
+}
+
+.footer {
+  margin: 10px 8px;
+  font-size: 0.8em;
+  text-align: center;
+  padding: 0.8em 0;
+}
+
+.footer a {
+  text-decoration: none;
+  font-size: 1em;
+}
+
+table {
+  border-collapse: collapse;
+  font-size: 0.85em;
+}
+
+table,
+td,
+th {
+  border: 1px solid #cacaca;
+}
+
+th {
+  width: 50%;
+  background-color: #ddd;
+  height: 30px;
+  text-align: center;
+  font-size: 1.2em;
+}
+
+td {
+  padding-right: 1em;
+}
+
+.stage {
+  font-weight: bold;
+  color: #800;
+  list-style-type: square;
+}
+
+td ul {
+  padding: 0 0 0 2.2em;
+  margin: 0.5em 0;
+  list-style-type: circle;
+}
+
+td ul li {
+  padding: 0.3em 0;
+  margin: 0;
+}
